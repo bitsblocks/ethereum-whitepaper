@@ -42,7 +42,7 @@ by [Vitalik Buterin](https://github.com/vbuterin) et al
   - [Currency And Issuance](misc.md#currency-and-issuance)
   - [Mining Centralization](misc.md#mining-centralization)
   - [Scalability](misc.md#scalability)
-- [Conclusion](#conclusion)
+- [Conclusion](conclusion.md)
 - [Notes and Further Reading](#notes-and-further-reading)
   - [Notes](#notes)
   - [Further Reading](#further-reading)
