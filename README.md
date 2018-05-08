@@ -1,12 +1,18 @@
+<!--
+
 See the live version @ [`bitblocks.github.io/ethereum-whitepaper`](http://bitblocks.github.io/ethereum-whitepaper)
 
+
 ---
+
+-->
+
 
 # Ethereum White Paper (Manuscripts Book Edition)
 
 A Next-Generation Smart Contract and Decentralized Application Platform
 
-by [Vitalik Buterin](https://github.com/vbuterin) et al
+by [Vitalik Buterin](https://github.com/vbuterin), et al
 
 
 > Note: This is the original source reformatted in a single-page book edition
