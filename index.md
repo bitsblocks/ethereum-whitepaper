@@ -1,6 +1,6 @@
 ---
 title: A Next-Generation Smart Contract and Decentralized Application Platform
-----
+---
 
 
 Satoshi Nakamoto's development of Bitcoin in 2009 has often been hailed as a
