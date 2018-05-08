@@ -12,7 +12,7 @@ by [Vitalik Buterin](https://github.com/vbuterin) et al
 > Note: This is the original source reformatted in a single-page book edition
 >  (using the [Manuscripts format](http://manuscripts.github.io)).
 
-- [Welcome - Summary - Abstract](index.md)
+- [A Next-Generation Smart Contract and Decentralized Application Platform](index.md)
 - [Introduction to Bitcoin and Existing Concepts](#introduction-to-bitcoin-and-existing-concepts)
   - [History](#history)
   - [Bitcoin As A State Transition System](#bitcoin-as-a-state-transition-system)
