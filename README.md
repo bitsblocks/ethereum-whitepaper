@@ -1,11 +1,7 @@
-<!--
 
 See the live version @ [`bitblocks.github.io/ethereum-whitepaper`](http://bitblocks.github.io/ethereum-whitepaper)
 
-
 ---
-
--->
 
 
 # Ethereum White Paper (Manuscripts Book Edition)
