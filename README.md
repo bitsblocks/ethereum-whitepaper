@@ -1,5 +1,5 @@
 
-See the live version @ [`bitblocks.github.io/ethereum-whitepaper`](http://bitblocks.github.io/ethereum-whitepaper)
+See the live version @ [`bitsblocks.github.io/ethereum-whitepaper`](http://bitsblocks.github.io/ethereum-whitepaper)
 
 ---
 
