@@ -4,6 +4,7 @@
 
 - title: A Next-Generation Smart Contract and Decentralized Application Platform
   path:  index.md
+
 - title: Introduction to Bitcoin and Existing Concepts
   path:  intro.md
   sections:
@@ -13,6 +14,7 @@
   - title: Merkle Trees
   - title: Alternative Blockchain Applications
   - title: Scripting
+
 - title: Ethereum
   path:  ethereum.md
   sections:
@@ -23,14 +25,17 @@
   - title: Ethereum State Transition Function
   - title: Code Execution
   - title: Blockchain and Mining
+
 - title: Applications
   path:  applications.md
+  sections:
   - title: Token Systems
   - title: Financial derivatives and Stable-Value Currencies
   - title: Identity and Reputation Systems
   - title: Decentralized File Storage
   - title: Decentralized Autonomous Organizations
   - title: Further Applications
+
 - title: Miscellanea And Concerns
   path:  misc.md
   sections:
@@ -40,8 +45,10 @@
   - title: Currency And Issuance
   - title: Mining Centralization
   - title: Scalability
+
 - title: Conclusion
   path:  conclusion.md
+
 - title: Notes and Further Reading
   path:  notes.md
   sections:
