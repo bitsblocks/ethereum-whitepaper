@@ -44,7 +44,7 @@ But:
 
     APPLY({ Alice: $50, Bob: $50 },"send $70 from Alice to Bob") = ERROR
 
-The "state" in Bitcoin is the collection of all coins (technically, "unspent transaction outputs" or UTXO) that have been mined and not yet spent, with each UTXO having a denomination and an owner (defined by a 20-byte address which is essentially a cryptographic public key [^1].
+The "state" in Bitcoin is the collection of all coins (technically, "unspent transaction outputs" or UTXO) that have been mined and not yet spent, with each UTXO having a denomination and an owner (defined by a 20-byte address which is essentially a cryptographic public key [1].
 A transaction contains one or more inputs, with each input containing a reference to an existing UTXO and a cryptographic signature produced by the private key associated with the owner's address, and one or more outputs, with each output containing a new UTXO to be added to the state.
 
 The state transition function `APPLY(S,TX) -> S'` can be defined roughly as follows:
@@ -68,7 +68,7 @@ If we had access to a trustworthy centralized service, this system would be triv
 The algorithm for checking if a block is valid, expressed in this paradigm, is as follows:
 
 1. Check if the previous block referenced by the block exists and is valid.
-2. Check that the timestamp of the block is greater than that of the previous block [^2] and less than 2 hours into the future
+2. Check that the timestamp of the block is greater than that of the previous block [2] and less than 2 hours into the future
 3. Check that the proof of work on the block is valid.
 4. Let `S[0]` be the state at the end of the previous block.
 5. Suppose `TX` is the block's transaction list with `n` transactions. For all `i` in `0...n-1`, set `S[i+1] = APPLY(S[i],TX[i])` If any application returns an error, exit and return false.
@@ -133,6 +133,3 @@ However, the scripting language as implemented in Bitcoin has several important 
 - **Blockchain-blindness** - UTXO are blind to blockchain data such as the nonce, the timestamp and previous block hash. This severely limits applications in gambling, and several other categories, by depriving the scripting language of a potentially valuable source of randomness.
 
 Thus, we see three approaches to building advanced applications on top of cryptocurrency: building a new blockchain, using scripting on top of Bitcoin, and building a meta-protocol on top of Bitcoin. Building a new blockchain allows for unlimited freedom in building a feature set, but at the cost of development time, bootstrapping effort and security. Using scripting is easy to implement and standardize, but is very limited in its capabilities, and meta-protocols, while easy, suffer from faults in scalability. With Ethereum, we intend to build an alternative framework that provides even larger gains in ease of development as well as even stronger light client properties, while at the same time allowing applications to share an economic environment and blockchain security.
-
-
-
