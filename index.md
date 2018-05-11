@@ -1,5 +1,5 @@
 ---
-title: A Next-Generation Smart Contract and Decentralized Application Platform
+title: A Next-Generation Blockchain Service Contract and Decentralized Application Platform
 ---
 
 
