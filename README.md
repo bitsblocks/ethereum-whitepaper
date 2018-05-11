@@ -6,15 +6,14 @@ See the live version @ [`bitsblocks.github.io/ethereum-whitepaper`](http://bitsb
 
 # Ethereum White Paper (Manuscripts Book Edition)
 
-A Next-Generation Smart Contract and Decentralized Application Platform
+A Next-Generation Blockchain Service Contract and Decentralized Application Platform
 
 by [Vitalik Buterin](https://github.com/vbuterin), et al
-
 
 > Note: This is the original source reformatted in a single-page book edition
 >  (using the [Manuscripts format](http://manuscripts.github.io)).
 
-- [A Next-Generation Smart Contract and Decentralized Application Platform](index.md)
+- [A Next-Generation Blockchain Service Contract and Decentralized Application Platform](index.md)
 - [Introduction to Bitcoin and Existing Concepts](intro.md)
   - [History](intro.md#history)
   - [Bitcoin As A State Transition System](intro.md#bitcoin-as-a-state-transition-system)
